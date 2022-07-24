@@ -8,13 +8,9 @@ refs.createBtn.addEventListener("click", createBoxes);
 refs.destroyBtn.addEventListener("click", destroyBoxes);
 refs.amount.addEventListener("input", getAmount);
 
-function getAmount() {
-  console.log(refs.amount.value);
-}
+function getAmount() {}
 
-function createBoxes(amount) {
-  refs.amount.value = document.createElement("div");
-}
+function createBoxes(amount) {}
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
